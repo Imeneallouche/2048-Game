@@ -1,4 +1,4 @@
-package com.fatacubez.game;
+package com.imene2048.java;
 
 import javax.swing.JFrame;
 import javax.tools.DocumentationTool.Location;

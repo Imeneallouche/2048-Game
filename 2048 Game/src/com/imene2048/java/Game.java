@@ -1,4 +1,4 @@
-package com.fatacubez.game;
+package com.imene2048.java;
 
 import java.awt.Color;
 import java.awt.Dimension;
