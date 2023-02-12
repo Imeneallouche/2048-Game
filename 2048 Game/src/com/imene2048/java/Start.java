@@ -1,7 +1,6 @@
 package com.imene2048.java;
 
 import javax.swing.JFrame;
-import javax.tools.DocumentationTool.Location;
 
 public class Start {
     public static void main(String[] args) {
