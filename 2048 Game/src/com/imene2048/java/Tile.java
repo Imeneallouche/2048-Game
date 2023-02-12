@@ -7,12 +7,13 @@ import java.awt.Graphics2D;
 
 public class Tile {
 
-    /* _______________________GLOBAL VARIABLES_______________________________ */
+    /* __________________________GLOBAL VARIABLES_______________________________ */
     public static final int WIDTH = 80;// the width in pixels of the tile
     public static final int HEIGHT = 80;// the height in pixels of the tile
     public static final int SLIDE_SPEED = 20; // the speed in which the tiles move when they slide
     public static final int ARC_WIDTH = 15;// for rounded rectangles: arc width
     public static final int ARC_HEIGHT = 15;// for rounded rectangles: arc height
+    /* _________________________________________________________________________ */
 
     private int value;
     private BufferedImage tileImage;
@@ -114,6 +115,12 @@ public class Tile {
         }
 
         g.setFont(font);
+
+        int drawX = WIDTH / 2 - DrawUtils.getMessageWidth("" + value, font, g) / 2;
+        int drawY = HEIGHT / 2 - DrawUtils.getMessageHeight("" + value, font, g) / 2;
+
+        g.drawString("" + value, drawX, drawY);
+        g.dispose();
 
     }
 }
