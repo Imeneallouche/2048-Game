@@ -1,9 +1,8 @@
-# 2048-Game
+<h1 align="center">2048 4x4 Game</h1>
+
+
 2048 Game I have developed using Java and respecting the OOP aspects. The game is followed with several functionalities : High score, current score, keylistener (top, right, left and button)
 
-
-
-<h1 align="center">2048 4x4 Game</h1>
 
 ```yaml
 Type: Game
